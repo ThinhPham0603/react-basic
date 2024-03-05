@@ -1,0 +1,108 @@
+/* Input và nút Add */
+.input-container {
+  padding: 40px;
+  margin-bottom: 10px;
+  text-align: center; 
+}
+
+.input-container input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 200px;
+  font-size: 16px;
+  outline: none; 
+}
+
+.input-container input[type="text"]::placeholder {
+  color: #aaa; 
+}
+
+.add-btn {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.add-btn:hover {
+  background-color: #7FFF00; 
+}
+
+/* Danh sách các mục */
+.todo-list {
+  list-style: none;
+  padding: 0;
+  width: 80%;
+  margin: auto;
+}
+
+.todo-item {
+  list-style: none;
+  padding: 10px;
+  margin: 5px 0;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;}
+
+/* Nút Edit và Delete */
+.edit-btn, .delete-btn {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.edit-btn {
+  background-color: #ff9800; 
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+
+.delete-btn {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+
+.edit-btn:hover, .delete-btn:hover {
+  opacity: 0.8; 
+}
+/*-------------------Context8--------------------*/
+.container {
+  text-align: center; 
+}
+
+.video {
+  margin: auto; /* Can giữa video */
+  display: block; 
+}
+
+.controls {
+  margin-top: 20px; 
+}
+video{
+  margin: auto;
+}
+.play-btn, .pause-btn {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.play-btn {
+  background-color: hsla(217, 100%, 50%, 0.856); 
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+
+.pause-btn {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
